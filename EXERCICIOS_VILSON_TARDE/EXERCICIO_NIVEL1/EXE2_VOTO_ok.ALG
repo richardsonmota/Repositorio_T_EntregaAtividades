@@ -2,8 +2,8 @@ Algoritmo "exe2_voto"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Vilson dos Santos Oliveira Filho
-// Data atual  : 31/03/2022
+// Autor(a)    : alunocetam22
+// Data atual  : 25/03/2022
 //    0-15 nao vota
 //    16-17 voto opcional
 //    18-69 voto obrigatorio

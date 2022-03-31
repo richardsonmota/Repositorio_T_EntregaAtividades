@@ -2,7 +2,7 @@ Algoritmo "semnome"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : Vilson dos Santos Oliveira Filho
 // Data atual  : 30/03/2022
 Var
 // Seção de Declarações das variáveis 
@@ -11,14 +11,11 @@ x, y : inteiro
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
-escreval("Digite um numero: ")
+escreval("Digite primeiro numero")
 leia(x)
-escreval("Digite outro numero: ")
+escreval("Digite segundo numero")
 leia(y)
 
-escreval("A soma desses numeros é : ",x+y)
-escreval("A subtração desses numeros é: ",x-y)
-escreval("A multiplicação desses numeros é: ",x*y)
-escreval("S divisão desses numeros é: ",x/y)
+escreval("Resultado da soma desses numeros será: ",x+y)
 
 Fimalgoritmo

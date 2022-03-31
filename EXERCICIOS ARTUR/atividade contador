@@ -1,0 +1,19 @@
+Algoritmo "contador"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : Ele irá contar de 0 a 98
+// Autor(a)    : Artur
+// Data atual  : 30/03/2022
+
+Var
+
+     contador: inteiro
+
+Inicio
+
+   enquanto (contador < 99) faca
+      escreval(contador)
+      contador <- contador + 1
+      fimenquanto
+
+Fimalgoritmo

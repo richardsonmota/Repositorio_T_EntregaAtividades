@@ -1,0 +1,115 @@
+Exercício Aula 01
+exercicio 1
+Algoritmo "soma"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : um algoritmo que receba dois números e exiba o resultado da sua  soma.
+// Autor(a)    : gabrielly cristine
+// Data atual  : 31/03/2022
+Var
+// Seção de Declarações das variáveis 
+ n1,n2: inteiro
+ rsp: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("digite um numero inteiro: ")
+leia(n1)
+escreva(" digite outro numero inteiro: ")
+leia (n2)
+rsp <- n1+n2
+escreva(" a soma dos numeros é",rsp)
+
+exercicio 2
+Algoritmo "soma,subtração,multiplicação e divisão"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : um algoritmo que receba dois números e ao final mostre a // soma, subtração, multiplicação e a divisão dos números lidos.
+// Autor(a)    : gabrielly cristine
+// Data atual  : 31/03/2022
+Var
+// Seção de Declarações das variáveis 
+n1,n2: real
+som,sub,mult,dv: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("digite o primeiro numero: ")
+leia(n1)
+escreva("digite o segundo numero; ")
+leia(n2)
+som<-n1+n2
+sub<-n1-n2
+mult<-n1*n2
+dv<-n1/n2
+escreva("a soma dos numeros é",som)
+escreva(" a subtração dos numeros é",sub)
+escreva(" a multiplicação dos numeros é",mult)
+escreva(" a divisão dos numeros é",dv)
+
+Fimalgoritmo
+
+exercicio 3 
+
+Algoritmo "consumomedio"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : calcula o consumo medio de combustivel do veiculo
+// Autor(a)    : gabrielly cristine
+// Data atual  : 31/03/2022
+Var
+// Seção de Declarações das variáveis 
+distancia,combustivel: real
+ cm: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva(" digite a distância pecorrida: ")
+leia(distancia)
+escreva(" digite o combustivel gasto: ")
+leia(combustivel)
+cm<-distancia/combustivel
+escreva(" o consumo medio de combustivel do seu veiculo é ",cm)
+
+Fimalgoritmo
+
+exercicio 4
+
+escreval ("Digite o salario atual: ")
+leia (salario)
+
+escreval ("Digite a porcentagem do aumento: ")
+leia (percentual)
+
+novosalario <- salario*percentual/100
+
+novosalario <- novosalario+salario
+
+escreval ("Salario novo:", novosalario)
+
+exercicio 5 
+ 
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : calcula a media de um aluno
+// Autor(a)    : gabriellycristine
+// Data atual  : 31/03/2022
+Var
+// Seção de Declarações das variáveis 
+ aluno: caracter
+ n1,n2,n3: real
+ mediaFinal: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva(" digite o nome do aluno: ")
+leia(aluno)
+escreva(" digite a nota da primeira prova: ")
+leia(n1)
+escreva(" digite a nota da segunda prova: ")
+leia(n2)
+escreva(" digite a nota de terceira prova: ")
+leia(n3)
+mediaFinal<-(n1+n2+n3)/3
+escreva(" a media final do aluno é ",mediaFinal)
+
+Fimalgoritmo

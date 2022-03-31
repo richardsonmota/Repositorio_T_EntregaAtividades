@@ -1,0 +1,38 @@
+ALgoritmo "exe2_voto"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Hiram Amaral
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a): isabelle costa brito
+// Dados atuais: 25/03/2022
+// 0-15 nao vota
+// 16-17 votos opcional
+// 18-69 voto obrigatório
+// 70... voto opcional
+Var
+// Seção de Declarações das Variáveis
+   idade: inteiro
+    nome, cidade: caractere
+
+Inicio
+// Seção de Comandos, procedimentos, funções, operadores, etc...
+    escreval("Digite seu nome completo: ")
+    leia(nome)
+    escreval("qual cidade você mora atualmente?: ")
+    leia(cidade)
+    escreval("Por gentileza, digite sua idade: ")
+    leia(idade)
+
+    se idade < 16 entao
+       escreval("Nao tem idade para devoto, aguarde seu momento!")
+       senao
+       se (idade >=16) e (idade < 18) ou (idade >=70) entao
+       escreval("Seu voto é opcional.")
+       senao
+       escreval("você eleito (a) de manaus")
+       escreval("Seu voto é obrigatorio, vote urgente!")
+       escreval("Não jogue seu voto fora!")
+
+
+       fimse
+       fimse
+Fimalgoritmo

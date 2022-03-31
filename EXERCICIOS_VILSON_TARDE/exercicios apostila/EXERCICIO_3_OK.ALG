@@ -6,16 +6,14 @@ Algoritmo "semnome"
 // Data atual  : 30/03/2022
 Var
 // Seção de Declarações das variáveis 
-x, y : inteiro
+distancia, combustivel: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Digite a distancia percorrida: ")
+leia(distancia)
+escreval("Digite o total de combustivel no seu tanque: ")
+leia(combustivel)
 
-escreval("Digite primeiro numero")
-leia(x)
-escreval("Digite segundo numero")
-leia(y)
-
-escreval("Resultado da soma desses numeros será: ",x+y)
-
+escreval("O consumo medio do seu automovel é: ", distancia/combustivel)
 Fimalgoritmo

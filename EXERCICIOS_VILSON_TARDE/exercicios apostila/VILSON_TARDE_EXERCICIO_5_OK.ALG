@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Hiram Amaral 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Vilson dos Santos Oliveira Filho
 // Data atual  : 30/03/2022
 Var
@@ -12,16 +12,16 @@ media: real
 
 
 inicio
-// Seção de Comandos
-escreval("********Média de alunos********")
+// SeÃ§Ã£o de Comandos
+escreval("********MÃ©dia de alunos********")
 escreva("Digite o nome do aluno: ")
 leia(aluno)
 para x de 1 ate 3 faca
-escreva("Digite a ",x,"º nota ")
+escreva("Digite a ",x,"Âº nota ")
 leia(notas[x])
 fimpara
 
-media >> "Média: ",media)
+media >> "MÃ©dia: ",media)
 
 escreval("=======================================")
 

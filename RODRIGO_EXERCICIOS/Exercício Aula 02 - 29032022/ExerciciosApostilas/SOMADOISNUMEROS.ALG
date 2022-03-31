@@ -7,16 +7,16 @@ Algoritmo "somaDoisNumeros"
 Var
 // Seção de Declarações das variáveis
 
-         x, y: inteiro
+         num1, num2: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
    escreval("################################")
    escreva("Digite o primeiro número: ")
-   leia(x)
+   leia(num1)
    
    escreva("Digite o segundo número: ")
-   leia(y)
+   leia(num2)
    escreval("################################")
    escreval("A soma dos números é: ",x+y)
    escreval("################################")

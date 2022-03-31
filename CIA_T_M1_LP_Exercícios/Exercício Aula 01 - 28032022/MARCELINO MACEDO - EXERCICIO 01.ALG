@@ -1,16 +1,20 @@
 Algoritmo "ex01"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Hiram Amaral 
-// Descrição   : idade da pessoa (função)
-// Autor(a)    : Odair José Barroso de Sousa Júnior
+// DescriÃ§Ã£o   : idade da pessoa (funÃ§Ã£o)
+
+// Autor(a)    : Odair JosÃ© Barroso de Sousa JÃºnior
+// Autor(a)    : MARCELINO MACEDO MELO
+
 // Data atual  : 25/03/2022
 
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
   nome: caractere
   ano_at, ano_nc, idade: inteiro
 
 Inicio
+
 
   escreval("Digite seu nome")
   leia(nome)
@@ -19,14 +23,36 @@ Inicio
   leia(ano_nc)
 
   escreval("Digite o ano atual")
+  escreval("Seu nome:")
+  leia(nome)
+
+  escreval("Ano de nascimento:")
+  leia(ano_nc)
+
+  escreval("Ano atual")
   leia(ano_at)
 
   idade <- ano_at - ano_nc
 
 
-  escreval ("Seu nome é ", nome)
+  escreval ("Seu nome Ã© ", nome)
 
 
-  escreval ("Sua idade é ", idade)
+  escreval ("Sua idade Ã© ", idade)
 
+Fimalgoritmo
+
+  escreval ("Seu nome Ã©", nome)
+
+
+  escreval ("Sua idade Ã© ", idade)
+  
+  se idade >= 16 entao
+
+  escreval ("VocÃª jÃ¡ pode votar")
+
+  senao ("VocÃª ainda nÃ£o pode votar")
+
+  fimse
+  
 Fimalgoritmo

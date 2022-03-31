@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Hiram Amaral 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Vilson dos Santos Oliveira Filho
 // Data atual  : 30/03/2022
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 nome: caractere
 salario: real
 vendas: real
@@ -14,15 +14,15 @@ salarioFinal: real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("Digite o nome do vendedor: ")
 leia(nome)
 escreval("Digite o seu salario: ")
 leia(salario)
-escreval("Informea quantidade de vendas deste no mês: ")
+escreval("Informea quantidade de vendas deste no mÃªs: ")
 leia(vendas)
 
-//comissão e salario final
+//comissÃ£o e salario final
 escreval("")
 
 comissao <- vendas * 0.15
@@ -32,7 +32,7 @@ escreval("*******RESUMO**********")
 escreval("")
 escreval("--Nome: ")
 escreval("--Salario: ")
-escreval("Salario final(comissão + salario): ", salarioFinal)
+escreval("Salario final(comissÃ£o + salario): ", salarioFinal)
 
 
 Fimalgoritmo

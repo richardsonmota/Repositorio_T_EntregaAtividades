@@ -1,0 +1,12 @@
+Algoritmo "primeiro ola mundo"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : imprimir o código
+// Autor(a)    : isabelle costa brito
+// Data atual  : 29/03/2022
+Var
+
+
+Inicio
+escreva("ola mundo, bem vindo ao inicio do curso")
+Fimalgoritmo

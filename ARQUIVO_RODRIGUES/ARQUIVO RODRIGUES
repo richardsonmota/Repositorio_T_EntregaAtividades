@@ -1,0 +1,35 @@
+Var
+salario_base, aumento: real
+nome: caractere
+
+
+Inicio
+  escreval("<><><><><> Sistema de gestão de vendedores <><><><><>")
+escreva(">>> Digite o nome do vendedor: ")
+leia(nome)
+
+escreval("-- Nome: ",nome)
+escreva ("Digite o salário:")
+leia ( salario_base)
+se(salario_base<1000.00) entao
+aumento<_ salario_base*20/100
+escreval("Seu Salariob liquido é:","R$", salario_base + aumento)
+senão
+se(salario_base>=1000.00) e (salario_base<1500.00) entao
+aumento<-salario_base*15/100
+escreval ("o aumento a receber é:", "R$", aumento)
+escreval("o salario liquido é","R$", salario_base + aumento)
+senao
+se (salario_base>=1500.00)e(salario_base<2000.00) entao
+aumento<- salario_base*10/100
+escreval ( "o aumento a receber é: R$", aumento)
+escreva("o salario líquido é: ", salariob + aumento
+senao
+         se (salario_base>=2000.00) entao
+         aumento<- salario_base*5/100
+         escreval ("o aumento a receber é: ","R$", aumento)
+         escreval ("o aumento líquido é: ","R$", salario_base+aumento)
+     fimse
+  fimse
+fimse
+fimse

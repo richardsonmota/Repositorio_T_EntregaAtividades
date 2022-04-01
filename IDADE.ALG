@@ -1,36 +1,37 @@
-Algoritmo "idade"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Hiram Amaral
-// Descrição   : Idade
-// Autor(a)    : Octávio
-// Data atual  : 29/03/2022
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Hiram Amaral 
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Gabriel Tanaka Harada Vieira
+// Data atual  : 29/03/2021
 Var
-   nome,  r1, : caractere
-   ano_at, dt_ns: inteiro
+nome: caracter
+ano_atual, ano_nascimento, dia_atual, dia_nascimento, idade : inteiro
+mes_atual, mes_nascimento : inteiro
 
 Inicio
-   Escreval("Digite seu nome:")
-   leia(nome)
+escreva("Digite seu nome:")
+leia(nome)
+escreva("Digite o ano atual:")
+leia(ano_atual)
+escreva("Digite o ano nascimento:")
+leia(ano_nascimento)
+escreva("Digite o dia atual:")
+leia(dia_atual)
+escreva("Digite o dia nascimento:")
+leia(dia_nascimento)
+escreva("Digite o mes atual:")
+leia(mes_atual)
+escreva("Digite o mes nascimento:")
+leia(mes_nascimento)
+ idade <- ano_atual - ano_nascimento
+ se (mes_nascimento>mes_atual) ou ((mes_nascimento = mes_atual) e (dia_nascimento>dia_atual)) entao
+  idade <- idade-1
+ 
+ fimse
+ escreval("OlÃ¡, seja bem vindo ao curso do CETAM " , nome)
+ escreval("Atualmente vocÃª tem",idade , " anos ")
 
-    Escreval("Seja bem vindo ", nome, "!")
 
-    Escreval("Data de nascimento:")
-   leia(dt_ns)
 
-    Escreval("Ano atual:")
-   leia(ano_at)
-   
-    Escreval("você já fez aniversário?")
-   leia(r1)
-   se r1 = "sim" então
-   
-      Escreval("sua idade é: ", ano_at - dt_ns )
-
-      escreval("sua idade é: ", ano_at - dt_ns - 1)
-      
-
-   fimse
 Fimalgoritmo
-
-
-

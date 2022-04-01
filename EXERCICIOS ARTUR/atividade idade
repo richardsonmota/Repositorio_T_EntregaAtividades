@@ -1,0 +1,28 @@
+Algoritmo "idade"
+// Disciplina   : [Linguagem e Lógica de Programa??o]
+// Professor   : Hiram Amaral
+// Descri??o   : Descobre a idade da pessoa
+// Autor(a)    : artur
+// Data atual  : 30/03/2022
+
+Var
+
+  nome: caractere
+  ano_at, ano_nc, idade: inteiro
+
+Inicio
+
+  escreval("Digite seu nome: ")
+  leia(nome)
+
+  escreval("Digite o ano de seu nascimento: ")
+  leia(ano_nc)
+
+  escreval("Digite o ano atual: ")
+  leia(ano_at)
+
+  idade <- ano_at - ano_nc
+
+  escreva("Seu nome é ", nome," e sua idade é", idade)
+
+Fimalgoritmo
